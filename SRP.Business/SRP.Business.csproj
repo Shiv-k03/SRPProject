@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="FluentValidation" Version="11.11.0" />
+	  <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SRP.Model\SRP.Model.csproj" />
+    <ProjectReference Include="..\SRP.Repository\SRP.Repository.csproj" />
+	<ProjectReference Include="..\SRP.API\SRP.API.csproj" />
+  </ItemGroup>
+
+</Project>
