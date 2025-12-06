@@ -4,7 +4,7 @@ using SRP.Repository.Context;
 using SRP.Repository.Entities;
 using SRP.Repository.Interfaces;
 
-namespace StudentReportPortal.Infrastructure.Repositories
+namespace SRP.Repository.Repositories
 {
     public class StudentSubjectRepository : Repository<StudentSubject>, IStudentSubjectRepository
     {

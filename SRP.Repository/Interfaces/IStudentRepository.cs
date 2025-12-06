@@ -1,4 +1,9 @@
 ﻿using SRP.Repository.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace SRP.Repository.Interfaces
 {
@@ -10,5 +15,6 @@ namespace SRP.Repository.Interfaces
         Task<IEnumerable<Student>> GetStudentsByDepartmentAsync(int departmentId);
         Task<IEnumerable<Student>> GetStudentsBySubjectAsync(int subjectId);
         Task<bool> IsRollNumberExistsAsync(string rollNumber);
+        Task<Student> AddOrUpdateStudentAsync(Student student, User user);
     }
 }

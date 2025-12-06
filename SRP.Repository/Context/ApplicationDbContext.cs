@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SRP.Repository.Configurations;
 using SRP.Repository.Entities;
 using SRP.Repository.Entities.BaseEntities;
 using StudentReportPortal.Infrastructure.Configurations;

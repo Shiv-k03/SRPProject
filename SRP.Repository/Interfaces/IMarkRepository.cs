@@ -9,5 +9,6 @@ namespace SRP.Repository.Interfaces
         Task<IEnumerable<Mark>> GetMarksBySubjectAsync(int subjectId);
         Task<IEnumerable<Mark>> GetMarksByStudentAndSubjectAsync(int studentId, int subjectId);
         Task<Mark?> GetMarkByStudentSubjectAndExamAsync(int studentId, int subjectId, string examType);
+        Task<Mark> AddOrUpdateMarkAsync(Mark mark);
     }
 }

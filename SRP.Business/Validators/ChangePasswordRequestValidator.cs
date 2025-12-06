@@ -1,6 +1,9 @@
-﻿namespace SRP.Business.Validators
+﻿using FluentValidation;
+using SRP.Model.DTOs.Requests;
+
+namespace SRP.Business.Validators
 {
-    public class ChangePasswordRequestValidator : AbstractValidator<ChangePasswordRequestDto>
+    public class ChangePasswordRequestValidator : AbstractValidator<ChangePasswordRequest>
     {
         public ChangePasswordRequestValidator()
         {

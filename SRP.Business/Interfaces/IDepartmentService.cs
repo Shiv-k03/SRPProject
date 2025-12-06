@@ -1,15 +1,14 @@
-﻿
-using SRP.Model.DTOs.Requests;
+﻿using SRP.Model.DTOs.Requests;
 using SRP.Model.DTOs.Responses;
+using SRP.Model.Helper.Base;
 
 namespace SRP.Business.Interfaces
 {
     public interface IDepartmentService
     {
-        Task<DepartmentResponse> CreateDepartmentAsync(DepartmentRequest request, string createdBy);
-        Task<DepartmentResponse> GetDepartmentByIdAsync(int departmentId);
-        Task<IEnumerable<DepartmentResponse>> GetAllDepartmentsAsync();
-        Task<DepartmentResponse> UpdateDepartmentAsync(int departmentId, DepartmentRequest request, string updatedBy);
-        Task DeleteDepartmentAsync(int departmentId);
+        Task<ResultModel> AddOrUpdateDepartmentAsync(DepartmentRequest request);
+        Task<ResultModel> GetDepartmentByIdAsync(int departmentId);
+        Task<ResultModel> GetDepartmentByFilterAsync(DepartmentFilterModel filter);
+        Task<ResultModel> DeleteDepartmentAsync(int departmentId);
     }
 }

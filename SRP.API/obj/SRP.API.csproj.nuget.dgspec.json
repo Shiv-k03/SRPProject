@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\SRP.API.csproj": {}
+    "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\SRP.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\SRP.API.csproj": {
+    "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\SRP.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\SRP.API.csproj",
+        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\SRP.API.csproj",
         "projectName": "SRP.API",
-        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\SRP.API.csproj",
+        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\SRP.API.csproj",
         "packagesPath": "C:\\Users\\Animesh Suryawanshi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\obj\\",
+        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Business\\SRP.Business.csproj": {
-                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Business\\SRP.Business.csproj"
+              "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Business\\SRP.Business.csproj": {
+                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Business\\SRP.Business.csproj"
               },
-              "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Model\\SRP.Model.csproj": {
-                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Model\\SRP.Model.csproj"
-              },
-              "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj": {
-                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj"
+              "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Model\\SRP.Model.csproj": {
+                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Model\\SRP.Model.csproj"
               }
             }
           }
@@ -133,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Business\\SRP.Business.csproj": {
+    "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Business\\SRP.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Business\\SRP.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Business\\SRP.Business.csproj",
         "projectName": "SRP.Business",
-        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Business\\SRP.Business.csproj",
+        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Business\\SRP.Business.csproj",
         "packagesPath": "C:\\Users\\Animesh Suryawanshi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Business\\obj\\",
+        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -162,14 +159,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\SRP.API.csproj": {
-                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\SRP.API.csproj"
+              "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\SRP.API.csproj": {
+                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\SRP.API.csproj"
               },
-              "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Model\\SRP.Model.csproj": {
-                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Model\\SRP.Model.csproj"
+              "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Model\\SRP.Model.csproj": {
+                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Model\\SRP.Model.csproj"
               },
-              "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj": {
-                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj"
+              "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj": {
+                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj"
               }
             }
           }
@@ -219,14 +216,14 @@
         }
       }
     },
-    "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Model\\SRP.Model.csproj": {
+    "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Model\\SRP.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Model\\SRP.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Model\\SRP.Model.csproj",
         "projectName": "SRP.Model",
-        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Model\\SRP.Model.csproj",
+        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Model\\SRP.Model.csproj",
         "packagesPath": "C:\\Users\\Animesh Suryawanshi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Model\\obj\\",
+        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -248,8 +245,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj": {
-                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj"
+              "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj": {
+                "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj"
               }
             }
           }
@@ -289,14 +286,14 @@
         }
       }
     },
-    "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj": {
+    "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj",
         "projectName": "SRP.Repository",
-        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj",
+        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj",
         "packagesPath": "C:\\Users\\Animesh Suryawanshi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

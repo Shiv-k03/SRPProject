@@ -17,5 +17,6 @@ namespace SRP.Repository.Entities
         // Navigation properties
         public Teacher? Teacher { get; set; }
         public Student? Student { get; set; }
+        public DateTime LastLogin { get; set; }
     }
 }

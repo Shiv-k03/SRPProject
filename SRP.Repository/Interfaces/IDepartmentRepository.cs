@@ -8,5 +8,6 @@ namespace SRP.Repository.Interfaces
         Task<IEnumerable<Department>> GetAllDepartmentsWithDetailsAsync();
         Task<bool> IsDepartmentCodeExistsAsync(string departmentCode);
         Task<Department?> GetByCodeAsync(string departmentCode);
+        Task<Department> AddOrUpdateDepartmentAsync(Department department);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "snNwYLK4kb4=",
+  "dgSpecHash": "Il/zYxWAZvw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Model\\SRP.Model.csproj",
+  "projectFilePath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Model\\SRP.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Animesh Suryawanshi\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Animesh Suryawanshi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

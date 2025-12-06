@@ -28,14 +28,12 @@
 
   <ItemGroup>
     <Folder Include="Extensions\" />
-    <Folder Include="AutoMapperProfile\" />
     <Folder Include="Middleware\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SRP.Business\SRP.Business.csproj" />
     <ProjectReference Include="..\SRP.Model\SRP.Model.csproj" />
-    <ProjectReference Include="..\SRP.Repository\SRP.Repository.csproj" />
   </ItemGroup>
 
 </Project>

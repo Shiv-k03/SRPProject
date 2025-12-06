@@ -5,14 +5,13 @@ using SRP.Repository.Context;
 using SRP.Repository.Interfaces;
 using System.Linq.Expressions;
 
-namespace StudentReportPortal.Infrastructure.Repositories
+namespace SRP.Repository.Repositories
 {
     public class Repository<T> : IRepository<T> where T : class
     {
         protected readonly ApplicationDbContext _context;
         protected readonly DbSet<T> _dbSet;
         protected readonly IMapper _mapper;
-
 
         public Repository(ApplicationDbContext context, IMapper mapper)
         {
@@ -47,6 +46,26 @@ namespace StudentReportPortal.Infrastructure.Repositories
         {
             _dbSet.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        public virtual async Task<T> AddOrUpdateAsync(T entity, Expression<Func<T, bool>> predicate)
+        {
+            var existingEntity = await _dbSet.FirstOrDefaultAsync(predicate);
+
+            if (existingEntity != null)
+            {
+                // Update existing entity
+                _context.Entry(existingEntity).CurrentValues.SetValues(entity);
+                await _context.SaveChangesAsync();
+                return existingEntity;
+            }
+            else
+            {
+                // Add new entity
+                await _dbSet.AddAsync(entity);
+                await _context.SaveChangesAsync();
+                return entity;
+            }
         }
 
         public virtual async Task DeleteAsync(T entity)

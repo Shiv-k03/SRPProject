@@ -15,6 +15,7 @@
     <ProjectReference Include="..\SRP.Model\SRP.Model.csproj" />
     <ProjectReference Include="..\SRP.Repository\SRP.Repository.csproj" />
 	<ProjectReference Include="..\SRP.API\SRP.API.csproj" />
+	
   </ItemGroup>
 
 </Project>

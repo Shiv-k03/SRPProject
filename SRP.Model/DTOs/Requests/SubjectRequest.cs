@@ -2,7 +2,7 @@
 {
     public class SubjectRequest
     {
-        public int SubjectId { get; set; }
+        public int? SubjectId { get; set; }
         public string SubjectName { get; set; }
         public string SubjectCode { get; set; } = string.Empty;
         public int Credits { get; set; }

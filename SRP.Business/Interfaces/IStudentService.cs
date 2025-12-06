@@ -1,18 +1,18 @@
-﻿using SRP.Model.DTOs.Requests;
-using SRP.Model.DTOs.Responses;
+﻿using SRP.Model.DTOs.Request;
+using SRP.Model.DTOs.Requests;
+using SRP.Model.Helper.Base;
 
 namespace SRP.Business.Interfaces
 {
     public interface IStudentService
     {
-        Task<StudentResponse> CreateStudentAsync(StudentRequest request, string createdBy);
-        Task<StudentResponse> GetStudentByIdAsync(int studentId);
-        Task<IEnumerable<StudentResponse>> GetAllStudentsAsync();
-        Task<StudentResponse> UpdateStudentAsync(int studentId, UpdateStudentRequestDto request, string updatedBy);
-        Task DeleteStudentAsync(int studentId);
-        Task AssignSubjectToStudentAsync(AssignSubjectToStudentRequest request, string assignedBy);
-        Task RemoveSubjectFromStudentAsync(int studentId, int subjectId);
-        Task<IEnumerable<StudentResponse>> GetStudentsByDepartmentAsync(int departmentId);
-        Task<IEnumerable<StudentResponse>> GetStudentsBySubjectAsync(int subjectId);
+        Task<ResultModel> AddOrUpdateStudentAsync(StudentRequest request);
+        Task<ResultModel> GetStudentByIdAsync(int studentId);
+        Task<ResultModel> GetStudentByFilterAsync(StudentFilterModel filter);
+        Task<ResultModel> DeleteStudentAsync(int studentId);
+        Task<ResultModel> AssignSubjectToStudentAsync(AssignSubjectToStudentRequest request);
+        Task<ResultModel> RemoveSubjectFromStudentAsync(int studentId, int subjectId);
+        Task<ResultModel> GetStudentSummaryAsync(int studentId);
+        Task<ResultModel> GetStudentDetailedReportAsync(int studentId);
     }
 }

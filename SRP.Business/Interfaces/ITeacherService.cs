@@ -1,17 +1,16 @@
 ﻿using SRP.Model.DTOs.Requests;
-using SRP.Model.DTOs.Responses;
+using SRP.Model.Helper.Base;
 
 namespace SRP.Business.Interfaces
 {
     public interface ITeacherService
     {
-        Task<TeacherResponseDto> CreateTeacherAsync(TeacherRequest request, string createdBy);
-        Task<TeacherResponseDto> GetTeacherByIdAsync(int teacherId);
-        Task<IEnumerable<TeacherResponseDto>> GetAllTeachersAsync();
-        Task<TeacherResponseDto> UpdateTeacherAsync(int teacherId, UpdateTeacherRequestDto request, string updatedBy);
-        Task DeleteTeacherAsync(int teacherId);
-        Task AssignSubjectToTeacherAsync(AssignSubjectToTeacherRequest request, string assignedBy);
-        Task RemoveSubjectFromTeacherAsync(int teacherId, int subjectId);
-        Task<IEnumerable<TeacherResponseDto>> GetTeachersByDepartmentAsync(int departmentId);
+        Task<ResultModel> AddOrUpdateTeacherAsync(TeacherRequest request);
+        Task<ResultModel> GetTeacherByIdAsync(int teacherId);
+        Task<ResultModel> GetTeacherByFilterAsync(TeacherFilterModel filter);
+        Task<ResultModel> DeleteTeacherAsync(int teacherId);
+        Task<ResultModel> AssignSubjectToTeacherAsync(AssignSubjectToTeacherRequest request);
+        Task<ResultModel> RemoveSubjectFromTeacherAsync(int teacherId, int subjectId);
+        Task<ResultModel> GetTeacherSummaryAsync(int teacherId);
     }
 }

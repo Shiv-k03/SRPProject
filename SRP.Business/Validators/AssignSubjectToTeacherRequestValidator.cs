@@ -1,22 +1,26 @@
-﻿namespace SRP.Business.Validators
+﻿using FluentValidation;
+using SRP.Model.DTOs.Requests;
+
+namespace SRP.Business.Validators
 {
-    public class AssignSubjectToTeacherRequestValidator : AbstractValidator<AssignSubjectToTeacherRequestDto>
+
+    public class AssignSubjectToTeacherRequestValidator : AbstractValidator<AssignSubjectToTeacherRequest>
     {
         public AssignSubjectToTeacherRequestValidator()
         {
             RuleFor(x => x.TeacherId)
-                .GreaterThan(0).WithMessage("Teacher ID must be greater than 0");
+                .GreaterThan(0).WithMessage("Teacher ID is required");
 
             RuleFor(x => x.SubjectId)
-                .GreaterThan(0).WithMessage("Subject ID must be greater than 0");
+                .GreaterThan(0).WithMessage("Subject ID is required");
 
             RuleFor(x => x.Semester)
                 .GreaterThan(0).WithMessage("Semester must be greater than 0")
-                .LessThanOrEqualTo(10).WithMessage("Semester cannot exceed 10");
+                .LessThanOrEqualTo(8).WithMessage("Semester cannot exceed 8");
 
             RuleFor(x => x.AcademicYear)
                 .NotEmpty().WithMessage("Academic year is required")
-                .Matches(@"^\d{4}-\d{4}$").WithMessage("Academic year must be in format YYYY-YYYY (e.g., 2024-2025)");
+                .MaximumLength(10).WithMessage("Academic year cannot exceed 10 characters");
         }
     }
 }

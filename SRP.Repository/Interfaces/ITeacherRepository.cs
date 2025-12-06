@@ -9,5 +9,6 @@ namespace SRP.Repository.Interfaces
         Task<Teacher?> GetTeacherByEmployeeCodeAsync(string employeeCode);
         Task<IEnumerable<Teacher>> GetTeachersByDepartmentAsync(int departmentId);
         Task<bool> IsEmployeeCodeExistsAsync(string employeeCode);
+        Task<Teacher> AddOrUpdateTeacherAsync(Teacher teacher, User user);
     }
 }

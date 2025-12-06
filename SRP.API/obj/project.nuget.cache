@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7j+Y10hlxGI=",
+  "dgSpecHash": "2EFdQSD7Spk=",
   "success": false,
-  "projectFilePath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\SRP.API.csproj",
+  "projectFilePath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\SRP.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Animesh Suryawanshi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Animesh Suryawanshi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
@@ -110,8 +110,8 @@
       "code": "NU1108",
       "level": "Error",
       "message": "Cycle detected. \r\n  SRP.API -> SRP.Business -> SRP.API.",
-      "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\SRP.API.csproj",
-      "filePath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.API\\SRP.API.csproj",
+      "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\SRP.API.csproj",
+      "filePath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.API\\SRP.API.csproj",
       "libraryId": "SRP.API",
       "targetGraphs": [
         "net9.0"

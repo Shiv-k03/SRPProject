@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using SRP.Repository.Context;
 using SRP.Repository.Entities;
 using SRP.Repository.Interfaces;
-using StudentReportPortal.Infrastructure.Repositories;
 
 namespace SRP.Repository.Repositories
 {

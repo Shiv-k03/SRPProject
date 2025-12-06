@@ -9,5 +9,6 @@ namespace SRP.Repository.Interfaces
         Task<IEnumerable<Subject>> GetSubjectsByDepartmentAsync(int departmentId);
         Task<IEnumerable<Subject>> GetSubjectsBySemesterAsync(int semester);
         Task<bool> IsSubjectCodeExistsAsync(string subjectCode);
+        Task<Subject> AddOrUpdateSubjectAsync(Subject subject);
     }
 }

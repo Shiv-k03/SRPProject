@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj": {}
+    "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj": {
+    "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj",
         "projectName": "SRP.Repository",
-        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\SRP.Repository.csproj",
+        "projectPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\SRP.Repository.csproj",
         "packagesPath": "C:\\Users\\Animesh Suryawanshi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\Assignments Girish sir\\main\\StudentReportPortal\\SRP.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Animesh Suryawanshi\\Desktop\\SRP Project\\SRPProject\\SRP.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

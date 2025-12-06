@@ -19,7 +19,7 @@
         public DateTime AdmissionDate { get; set; }
         public int CurrentSemester { get; set; }
         public bool IsActive { get; set; }
-        public List<SubjectResponseDto> EnrolledSubjects { get; set; } = new();
+        public List<SubjectResponse> EnrolledSubjects { get; set; } = new();
         public DateTime CreatedAt { get; set; }
     }
 }
