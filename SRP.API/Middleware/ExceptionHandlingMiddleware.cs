@@ -1,4 +1,4 @@
-﻿using SRP.API.Helper.Base;
+﻿using SRP.Model.Helper.Base;
 using SRP.Repository.Exceptions;
 using System.Net;
 using System.Text.Json;

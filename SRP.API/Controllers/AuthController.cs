@@ -20,7 +20,7 @@ namespace SRP.API.Controllers
         }
 
         /// User login
-       
+
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
@@ -31,7 +31,7 @@ namespace SRP.API.Controllers
             return CommonHelper.ReturnActionResultByStatus(result, this);
         }
 
-        
+
         /// Change password (Authenticated users)        
         [HttpPost("change-password")]
         [Authorize]

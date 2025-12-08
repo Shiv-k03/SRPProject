@@ -7,7 +7,7 @@
   </PropertyGroup>
 	
   <ItemGroup>
-	<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+
 	<PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
 	<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.11" />
 	<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.10" />
@@ -28,11 +28,14 @@
 
   <ItemGroup>
     <Folder Include="Middleware\" />
+	<Folder Include="Extensions\" />
+	<Folder Include="Mapper\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SRP.Business\SRP.Business.csproj" />
     <ProjectReference Include="..\SRP.Model\SRP.Model.csproj" />
+    <ProjectReference Include="..\SRP.Repository\SRP.Repository.csproj" />
   </ItemGroup>
 
 </Project>

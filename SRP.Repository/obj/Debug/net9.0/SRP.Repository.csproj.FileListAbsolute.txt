@@ -1,0 +1,15 @@
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\bin\Debug\net9.0\SRP.Repository.deps.json
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\bin\Debug\net9.0\SRP.Repository.runtimeconfig.json
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\bin\Debug\net9.0\SRP.Repository.dll
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\bin\Debug\net9.0\SRP.Repository.pdb
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\SRP.Repository.csproj.AssemblyReference.cache
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\SRP.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\SRP.Repository.AssemblyInfoInputs.cache
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\SRP.Repository.AssemblyInfo.cs
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\SRP.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\SRP.Repository.sourcelink.json
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\SRP.Repository.dll
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\refint\SRP.Repository.dll
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\SRP.Repository.pdb
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\SRP.Repository.genruntimeconfig.cache
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Repository\obj\Debug\net9.0\ref\SRP.Repository.dll

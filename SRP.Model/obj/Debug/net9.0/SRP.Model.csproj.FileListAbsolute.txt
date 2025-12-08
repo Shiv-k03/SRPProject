@@ -1,0 +1,16 @@
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\bin\Debug\net9.0\SRP.Model.deps.json
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\bin\Debug\net9.0\SRP.Model.dll
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\bin\Debug\net9.0\SRP.Model.pdb
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\bin\Debug\net9.0\SRP.Repository.dll
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\bin\Debug\net9.0\SRP.Repository.pdb
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\SRP.Model.csproj.AssemblyReference.cache
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\SRP.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\SRP.Model.AssemblyInfoInputs.cache
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\SRP.Model.AssemblyInfo.cs
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\SRP.Model.csproj.CoreCompileInputs.cache
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\SRP.Model.sourcelink.json
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\SRP.Model.csproj.Up2Date
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\SRP.Model.dll
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\refint\SRP.Model.dll
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\SRP.Model.pdb
+C:\Users\Animesh Suryawanshi\Desktop\SRP Project\SRPProject\SRP.Model\obj\Debug\net9.0\ref\SRP.Model.dll
