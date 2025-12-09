@@ -32,6 +32,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SRP.API.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SRP.Model.DTOs.Requests.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SRP.API.Controllers.DepartmentController",
     "Method": "GetDepartmentById",
     "RelativePath": "api/Department/{id}",
@@ -566,6 +582,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SRP.API.Controllers.UserController",
+    "Method": "SeedAdmin",
+    "RelativePath": "api/User/seed-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SRP.Model.DTOs.Requests.CreateAdminRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

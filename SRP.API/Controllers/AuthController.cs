@@ -49,5 +49,14 @@ namespace SRP.API.Controllers
             var result = await _authService.ChangePasswordAsync(userId, request);
             return CommonHelper.ReturnActionResultByStatus(result, this);
         }
+
+        [HttpPost("refresh")]
+        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenRequest request)
+        {
+            if (!ModelState.IsValid) return BadRequest("Invalid data model");
+
+            var result = await _authService.RefreshTokenAsync(request);
+            return CommonHelper.ReturnActionResultByStatus(result, this);
+        }
     }
 }

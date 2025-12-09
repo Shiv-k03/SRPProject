@@ -11,5 +11,7 @@ namespace SRP.Business.Interfaces
         Task<ResultModel> UpdateUserAsync(int userId, UpdateUserRequest request);
         Task<ResultModel> DeactivateUserAsync(int userId);
         Task<ResultModel> ActivateUserAsync(int userId);
+
+        //Task<ResultModel> CreateAdminAsync(CreateAdminRequest request);
     }
 }

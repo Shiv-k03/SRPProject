@@ -7,6 +7,7 @@ namespace SRP.Business.Interfaces
     {
         Task<ResultModel> LoginAsync(LoginRequest request);
         Task<ResultModel> ChangePasswordAsync(int userId, ChangePasswordRequest request);
-        string GenerateJwtToken(int userId, string username, string role);
+         
+        Task<ResultModel> RefreshTokenAsync(RefreshTokenRequest request);
     }
 }

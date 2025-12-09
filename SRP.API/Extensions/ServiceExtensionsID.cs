@@ -5,7 +5,6 @@ using SRP.Business.Services;
 using SRP.Business.Validators;
 using SRP.Repository.Interfaces;
 using SRP.Repository.Repositories;
-using StudentReportPortal.Infrastructure.Repositories;
 
 namespace SRP.API.Extensions
 {
@@ -16,6 +15,7 @@ namespace SRP.API.Extensions
             // Register Services
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IDepartmentService, DepartmentService>();
+            services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<ITeacherService, TeacherService>();
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<ISubjectService, SubjectService>();
@@ -43,10 +43,6 @@ namespace SRP.API.Extensions
             services.AddValidatorsFromAssemblyContaining<LoginRequestValidator>();
         }
 
-        //public static IServiceCollection AddAutoMapperServices(this IServiceCollection services)
-        //{
-        //    services.AddAutoMapper(typeof(SRP.API.Mapper.AutoMappingProfile));
-        //    return services;
-        //}
+      
     }
 }

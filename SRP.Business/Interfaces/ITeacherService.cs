@@ -14,3 +14,4 @@ namespace SRP.Business.Interfaces
         Task<ResultModel> GetTeacherSummaryAsync(int teacherId);
     }
 }
+

@@ -20,7 +20,20 @@ namespace SRP.API.Controllers
             _userService = userService;
         }
 
-        
+        ////Create initial Admin via API (remove AllowAnonymous after first use)
+        //[HttpPost("seed-admin")]
+        //[AllowAnonymous]
+        //public async Task<IActionResult> SeedAdmin([FromBody] CreateAdminRequest request)
+        //{
+        //    if (!ModelState.IsValid)
+        //        return BadRequest("Invalid data model");
+
+        //    var result = await _userService.CreateAdminAsync(request);
+        //    return CommonHelper.ReturnActionResultByStatus(result, this);
+        //}
+
+
+
         /// Get user by ID (Admin only)        
         [HttpGet("{id}")]
         [Authorize(Roles = "Admin")]

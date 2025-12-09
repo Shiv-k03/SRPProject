@@ -53,7 +53,7 @@
             return new ResultModel(ResultCode.Unauthorized, message);
         }
 
-        public static ResultModel Exception(string message = "An error occurred")
+        public static ResultModel Exception(string message = "An error occurred", string message1 = null)
         {
             return new ResultModel(ResultCode.ExceptionThrown, message);
         }

@@ -16,3 +16,5 @@ namespace SRP.Business.Interfaces
         Task<ResultModel> GetStudentDetailedReportAsync(int studentId);
     }
 }
+
+

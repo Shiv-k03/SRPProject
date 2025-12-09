@@ -11,3 +11,4 @@ namespace SRP.Business.Interfaces
         Task<ResultModel> DeleteSubjectAsync(int subjectId);
     }
 }
+
